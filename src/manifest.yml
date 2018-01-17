@@ -13,6 +13,8 @@ permissions:
 - storage
 - http://getpocket.com/*
 - https://getpocket.com/*
+- https://jonathan.dev.readitlater.com/*
+- https://joel.dev.readitlater.com/*
 optional_permissions:
 - topSites
 - bookmarks

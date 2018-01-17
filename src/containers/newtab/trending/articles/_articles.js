@@ -139,6 +139,7 @@ function* getArticles() {
 
         if(!responseData[0].response) return yield sendError(10000)
 
+        // FIXME: This is where you need to parse out the list from the response
         const recList = buildArticleList(responseData[0].response.list)
         return yield sendSuccess(recList)
 

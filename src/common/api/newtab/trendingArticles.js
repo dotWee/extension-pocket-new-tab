@@ -5,6 +5,7 @@ import { getCurrentLanguageCode } from '../../helpers'
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 export function getTrendingArticles( data, count ){
     var lang = getCurrentLanguageCode()
+    // FIXME: this is where the request is made
     return request ({
         path: 'getGlobalRecs/',
         data: {
